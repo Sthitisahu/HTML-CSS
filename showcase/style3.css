@@ -1,0 +1,172 @@
+*{
+    font-family: Helvetica;
+}
+#navbar{
+    background-color: rgb(8, 55, 68);
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+     
+}
+#navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar2 h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#navbar2 a{
+    text-decoration: none;
+}
+.btn{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(8, 55, 68);
+    color: white;
+    margin-right: 15px;
+    border-radius: 10px;
+    
+}
+
+.box1{
+    height: 700px;
+    background-image: url(https://png.pngtree.com/background/20250225/original/pngtree-blue-themed-living-room-with-a-stylish-gray-sofa-in-a-picture-image_13248342.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+    
+}
+.text0{
+    padding-top: 30px;
+    color: white;
+}
+.box1 h1{
+    font-size: 50px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+.image{
+    width: 50%;
+    
+}
+.image img{
+    width: 100%;
+}
+.text{
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+.text h2{
+    font-size: 40px;
+    
+}
+.text button{
+    padding: 10px 20px;
+    background-color: rgb(8, 55, 68);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+.image2{
+    width: 100%;
+    
+}
+.image2 img{
+    width: 80%;
+}
+.text2{
+    width: 50%;
+    text-align: left;
+    padding-right: 30px;
+}
+.text2 h2{
+    font-size: 40px;
+    
+}
+.text2 button{
+    padding: 10px 20px;
+    background-color: rgb(8, 55, 68);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.box4{
+    height: 600px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/069/352/452/small/minimalist-interior-with-round-platform-and-plants-for-product-showcase-background-photo.jpg);
+    background-size: cover;
+    margin-top: 50px;
+}
+.text3 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10%;
+    
+}
+.text3 p{
+    max-width: 500px;
+    margin-left: 30%;
+    font-size: 28px;
+
+}
+.text3 button{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+}
+.footer{
+    padding: 50px 20px 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+.footer-box h3{
+    margin-left: 10px;
+}
+.footer-box ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-box ul li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footer-box input{
+    width: 80%;
+    padding: 8px;
+}
+.footer-box button{
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(8, 55, 68);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+}
+.footer-box a{
+    text-decoration: none;
+}
